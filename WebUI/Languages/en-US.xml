@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Resource>
+   <!-- Misc -->
+   <item name="colon">:</item>
+   <item name="InvalidDateMsg">Format Tanggal Salah</item>
+   
+   <!-- Login -->
+   <item name="username">Username</item>
+   <item name="password">Password</item>
+   <item name="login">Login</item>
+   <item name="rememberMe">Remember Me?</item>
+   <item name="usernameRequired">Username required</item>
+   <item name="passwordRequired">Password required</item>
+   <item name="invalidLoginInformation">Your username/password could not be found</item>   
+</Resource>

@@ -1,0 +1,96 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47D45E5B-568B-4CB3-BB82-801A6F788CFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIMRS.DataAccess</RootNamespace>
+    <AssemblyName>SIMRS.DataAccess</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RS_SatuanKerja.cs" />
+    <Compile Include="RS_KelompokPemeriksaan.cs" />
+    <Compile Include="RS_JenisPemeriksaan.cs" />
+    <Compile Include="RS_RIDeposit.cs" />
+    <Compile Include="RS_RIKuitansiDeposit.cs" />
+    <Compile Include="RS_RM.cs" />
+    <Compile Include="RS_RMJenisPenyakit.cs" />
+    <Compile Include="RS_StatusRM.cs" />
+    <Compile Include="RS_RIJenisPenyakit.cs" />
+    <Compile Include="RS_RIKuitansi.cs" />
+    <Compile Include="RS_RIKuitansiLayanan.cs" />
+    <Compile Include="RS_RILayanan.cs" />
+    <Compile Include="RS_Layanan.cs" />
+    <Compile Include="RS_KelompokLayanan.cs" />
+    <Compile Include="RS_JenisLayanan.cs" />
+    <Compile Include="RS_JenisPenyakit.cs" />
+    <Compile Include="RS_JenisRegistrasi.cs" />
+    <Compile Include="RS_Penjamin.cs" />
+    <Compile Include="RS_Registrasi.cs" />
+    <Compile Include="RS_RJKuitansi.cs" />
+    <Compile Include="RS_RJKuitansiLayanan.cs" />
+    <Compile Include="RS_RJLayanan.cs" />
+    <Compile Include="RS_Spesialis.cs" />
+    <Compile Include="RS_Poliklinik.cs" />
+    <Compile Include="RS_JenisPoliklinik.cs" />
+    <Compile Include="RS_KelompokPoliklinik.cs" />
+    <Compile Include="RS_Pangkat.cs" />
+    <Compile Include="RS_KelompokPangkat.cs" />
+    <Compile Include="RS_KelompokStatus.cs" />
+    <Compile Include="RS_JenisPembayaran.cs" />
+    <Compile Include="RS_RuangRawat.cs" />
+    <Compile Include="DBInteractionBase.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="RS_Dokter.cs" />
+    <Compile Include="RS_Hari.cs" />
+    <Compile Include="RS_Hubungan.cs" />
+    <Compile Include="RS_JadwalDokter.cs" />
+    <Compile Include="RS_JenisPenjamin.cs" />
+    <Compile Include="RS_Kelas.cs" />
+    <Compile Include="RS_Pasien.cs" />
+    <Compile Include="RS_Penanggung.cs" />
+    <Compile Include="RS_RawatInap.cs" />
+    <Compile Include="RS_RawatJalan.cs" />
+    <Compile Include="RS_Ruang.cs" />
+    <Compile Include="RS_Status.cs" />
+    <Compile Include="RS_Tarif.cs" />
+    <Compile Include="RS_TempatInap.cs" />
+    <Compile Include="RS_TempatTidur.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

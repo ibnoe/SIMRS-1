@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Resource>
+   <!-- Misc -->
+   <item name="colon">:</item>
+   <item name="InvalidDateMsg">Format Tanggal Salah</item>
+   
+   
+   <!-- Login -->
+   <item name="username">Username</item>
+   <item name="password">Kata Kunci</item>
+   <item name="login">Masuk</item>
+   <item name="rememberMe">Ingat Saya?</item>
+   <item name="usernameRequired">Username required</item>
+   <item name="passwordRequired">Password required</item>
+   <item name="invalidLoginInformation">Your username/password could not be found</item>   
+   
+   <!-- Insert update delete -->
+   <item name="View">Lihat</item>
+   <item name="Detail">Detil</item>
+   <item name="Add">Tambah</item>
+   <item name="Edit">Edit</item>
+   <item name="Delete">Hapus</item>
+   <item name="Save">Simpan</item>
+   <item name="Cancel">Batal</item>
+   <item name="Search">Cari</item>
+   <item name="Back">Kembali</item>
+   <item name="Update">Update</item>
+   <item name="Send">Kirim</item>
+   <item name="Remove">Remove</item>
+   <item name="List">Daftar</item>
+   <item name="Title">Judul</item>
+   <item name="Hitung">Hitung</item>
+   <item name="BulanBukuClose">Tutup Bulan Buku</item>
+   <item name="BulanBukuBack">Batalkan Penutupan Bulan Buku</item>
+   
+      <!-- Navigasi Page -->
+   <item name="nav_Page">Halaman</item>
+   <item name="nav_From">Edit</item>
+   <item name="nav_To">Hapus</item>
+   <item name="nav_Total">Total item</item>
+   <item name="nav_First">Halamn Pertama</item>
+   <item name="nav_Prev">Halamn Sebelumnya</item>
+   <item name="nav_Next">Halamn Selanjutnya</item>
+   <item name="nav_Last">Halaman Terakhir</item>
+   
+   <!-- Image -->
+   <item name="Map">Detil</item>
+   <item name="Image">Gambar</item>
+   <item name="File">File</item>
+   
+   <!-- Group Management-->
+   <item name="TitleListGroup">Manajemen Grup</item>
+   <item name="TitleAddGroup">Tambah Grup</item>
+   <item name="TitleEditGroup">Edit Grup</item>
+   <item name="TitleDeleteGroup">Hapus Grup</item>
+   <item name="AddGroup">Tambah Grup</item>
+   <item name="EditGroup">Edit</item>
+   <item name="DeleteGroup">Hapus</item>
+   <item name="WarExistGroup">Data Grup Sudah ada dalam database silahkan periksa kembali!</item>
+
+<!-- User Management-->
+   <item name="TitleListUser">Manajemen User</item>
+   <item name="TitleAddUser">Tambah User</item>
+   <item name="TitleEditUser">Edit User</item>
+   <item name="TitleDeleteUser">Hapus User</item>
+   <item name="AddUser">Tambah User</item>
+   <item name="EditUser">Edit</item>
+   <item name="DeleteUser">Hapus</item>
+   <item name="WarExistUser">Data User Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Warning-->
+  <item name="WarAlreadyUsed">Data tidak dapat dihapus, karena sudah terpakai</item>
+  <item name="WarSuccessDelete">Data Telah Berhasil Dihapus</item>
+  <item name="WarSuccessSave">Data Telah Berhasil Disimpan</item>
+
+</Resource>

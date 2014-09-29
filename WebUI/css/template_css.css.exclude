@@ -1,0 +1,903 @@
+#header {
+        background-color: #FFF;
+        border-bottom: 4px solid #C64934;
+        /*background: url(../images/header_bg.gif);*/
+}
+
+BODY {
+        margin: 0px 0px 0px 0px;
+        color : #333;
+        background-color: #FFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+a {
+        color: #C64934;
+        text-decoration: none;
+		font-weight: bold;
+}
+a:hover {
+        color : #30569D;
+        text-decoration : none;
+		font-weight: bold;
+}
+a:active {
+        color : #333333;
+        text-decoration : underline;
+}
+
+table#toolbar {
+        margin-right: 10px;
+}
+
+table#toolbar a.toolbar {
+        color: #808080;
+        text-decoration : none;
+        display: block;
+        border: 1px solid #DDD;
+        width: 55px;
+        padding: 2px 1px 2px 1px;
+}
+table#toolbar a.toolbar:hover {
+        color : #C64934;
+        border: 1px solid #c24733;
+        background-color: #f1e8e6;
+        padding: 3px 0px 1px 2px;
+}
+table#toolbar a.toolbar:active {
+        color : #FF9900;
+}
+.pagenav {
+        font-size : 10px;
+}
+a.pagenav {
+        color : #808080;
+        font-size : 10px;
+        text-decoration : underline;
+}
+a.pagenav:hover {
+        color : #FFF;
+        font-size : 10px;
+}
+a.pagenav:active {
+        color : #333;
+        font-size : 10px;
+}
+.sectionname {
+        color : #FF9900;
+        font-family : Arial, Helvetica, sans-serif;
+        font-size : 18px;
+        font-weight: bold;
+}
+.button {
+        color : #C64934;
+        text-align : center;
+        border: 1px solid #c24733;
+        background-color: #f1e8e6;
+        padding: 1px 1px 1px 2px;
+        margin : 0px;
+        display: inline-block;
+        cursor :hand;
+}
+
+.inputbox {
+        /*z-index: -3;*/
+        font-size: 11px;
+}
+.text_area {
+        border : 1px solid ccc;
+        z-index: -3;
+        font-size: 11px
+}
+INPUT, TEXTAREA, SELECT {
+        z-index : -3;
+        font-size: 11px;
+}
+.small {
+        color : #FF9900;
+        font-family : Arial, Helvetica, sans-serif;
+        font-size : 10px;
+        text-decoration : none;
+}
+.smallgrey {
+        color : #999;
+        font-size : 10px;
+}
+.error {
+        color : #C40000;
+        font-size : 11px;
+        font-weight : bold;
+}
+.contentheading, .componentheading, .moduleheading {
+        font-size: 14px;
+        font-weight: bold;
+}
+table.menubar {
+        width: 100%;
+}
+td {
+        font-size: 11px;
+}
+/* header block */
+table.adminheading {
+        background-color: #FFF;
+        font-family : Tahoma, Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        border-collapse: collapse;
+        color: #CC3333;
+        font-size : 18px;
+        font-weight: bold;
+        text-align: left;
+}
+table.adminheading th{
+        padding-left: 5px;
+        padding-right: 5px;
+}
+table.adminheading td{
+        padding-left: 0px;
+        padding-right: 0px;
+}
+
+
+/* standard list style table */
+table.adminlist {
+        background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #ddd;
+        border-spacing: 0px;
+        width: 100%;
+        border-collapse: collapse;
+}
+
+table.adminlist th {
+        margin: 0px;
+        padding: 6px 4px 2px 4px;
+        height: 25px;
+        background: url(../images/background.jpg);
+        background-repeat: repeat;
+        font-size: 11px;
+        color: #000;
+}
+table.adminlist th.title {
+        text-align: left;
+}
+
+table.adminlist th a:link, table.adminlist th a:visited {
+        color: #c64934;
+        text-decoration: none;
+}
+
+table.adminlist th a:hover {
+        text-decoration: underline;
+}
+
+table.adminlist tr.row0 {
+        background-color: #F9F9F9;
+}
+table.adminlist tr.row1 {
+        background-color: #FFF;
+}
+table.adminlist td {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 4px;
+}
+table.adminlist tr.row0:hover {
+        background-color: #f1f1f1;
+}
+table.adminlist tr.row1:hover {
+        background-color: #f1f1f1;
+}
+table.adminlist td.options {
+        background-color: #ffffff;
+        font-size: 8px;
+}
+select.options, input.options {
+        font-size: 8px;
+        font-weight: normal;
+        border: 1px solid #999999;
+}
+/* standard form style table */
+table.adminform {
+        background-color: #f9f9f9;
+        border: solid 1px #d5d5d5;
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+}
+table.adminform tr {
+        color: #000000;
+}
+table.adminform tr.row0 {
+        background-color: #f9f9f9;
+}
+table.adminform tr.row1 {
+        background-color: #eeeeee;
+}
+table.adminform th {
+        font-size: 11px;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: left;
+        height: 25px;
+        background: url(../images/background.jpg);
+        color: #000;
+        background-repeat: repeat;
+}
+table.adminform td {
+        padding: 3px;
+/*        text-align: left;*/
+}
+table.adminform td.text {
+        width: 150px;
+        text-align:right;
+        vertical-align:top;
+}
+table.adminform td.sparator {
+        width: 1px;
+        text-align:left;
+        vertical-align:top;
+}
+table.adminform td.value {
+        text-align:left;
+        vertical-align:top;
+}
+table.adminform td.editor {
+        font-size: 9px;
+}
+
+table.cpanel td {
+        text-align: center;
+}
+
+form {
+        margin: 0px 0px 0px 0px;
+}
+/* Styles for dhtml tabbed-pages */
+.ontab {
+        font-size: 13px;
+        background-color: #ffae00;
+        /*border: 0px solid #cccccc;*/
+        border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
+        border-top: 1px solid #cccccc;
+        border-bottom:1px solid #FFAE00;
+        /*width: 14%;*/
+        text-align: center;
+        cursor: default;
+        font-weight: bold;
+        color: #FFFFFF;
+}
+.offtab {
+        font-size: 12px;
+        background-color : #e5e5e5;
+        border: 1px solid #cccccc;
+        /*width: 14%;*/
+        text-align: center;
+        cursor: hand;
+        font-weight: normal;
+}
+.tabpadding {
+        /*border-bottom: solid 1px #D5D5D5;*/
+}
+.tabheading {
+        background-color: #FFAE00;
+        color: #FFF;
+        font-size: 11px;
+        font-weight :bold;
+        text-align: left;
+}
+.pagetext {
+        visibility: hidden;
+        display: none;
+        position: relative;
+        top: 0;
+}
+.menubackgr {
+        /*background: #F1F3F5;*/
+        background: #ADD8E6;
+        border-bottom: 1px solid #cccccc;
+
+}
+.menudottedline {
+        border-bottom: 1px solid #CCCCCC;
+        border-top: 1px solid #ffffff;
+        background-color: #EEEEEE;
+}
+.pathway {
+        margin-left: 15px;
+}
+.adminheader {
+        color : #c30;
+        font-size : 24px;
+}
+/* Text passed with mosmsg url parameter */
+.message {
+        font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size : 14px;
+        color : #c30;
+        text-align: center;
+}
+
+div.centermain {
+        padding: 0 10px;
+}
+
+div.main {
+        width: 99%;
+        padding: 0;
+}
+.quote {
+        margin: 4px;
+        border: 1px solid #cccccc;
+        background-color: #E9ECEF;
+        padding: 10px;
+        font-size: 12px;
+        color: #254D78;
+}
+
+
+/* Tooltips */
+a.tooltip, a.tooltip:hover  {
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px dashed #aaa;
+}
+
+a.tooltiplink {
+        display: block;
+        width: 100%;
+}
+a.tooltiplink:hover {
+        text-decoration:  none;
+}
+
+/* Fieldsets */
+fieldset {
+        margin-bottom: 10px;
+        border: 1px #ccc solid;
+        padding: 5px;
+        text-align: left;
+}
+
+fieldset p {
+        margin: 10px 0px;
+}
+
+legend {
+        color: #c24733;
+        font-size: 1.1em;
+        font-weight: bold;
+}
+
+span.editlinktip {
+        text-decoration:  none;
+        border-bottom: 1px dashed #aaa;
+}
+
+table.paramlist td {
+        height: 30px;
+}
+
+div.footer {
+        clear: both;
+        margin-top: 10px;
+}
+/* These below are modified by Amirul*/
+.tanggal
+{
+        font-family : Verdana, Tahoma, Trebuchet ms, Arial, Helvetica, sans-serif;
+        font-size : 11px;
+        color : #FF0000;
+}
+/* Added by ekitea*/
+#buttons {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+}
+#buttons a {
+        color : White;
+        font-weight:bold;
+}
+#buttons_outer {
+        /*width: 635px;*/
+          width: 800px;
+          margin-bottom: 2px;
+        /*margin-right: 0px;*/
+        float: left;
+
+}
+
+#buttons_inner {
+        border: 0px solid #cccccc;
+        height: 21px;
+}
+
+/* Style For DataGridList */
+table.DataGridList
+{
+        /*width : 100% ;
+        border-style :solid;
+        border-width: 1px;
+        border-color : Black;
+        font-size : 8pt ;
+        font-family :Tahoma ;
+        padding: 1px 1px 2px 1px;
+        background-color :#FFFFFF;
+        border-collapse : separate;
+        */
+        background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #ddd;
+        border-spacing: 0px;
+        width: 100%;
+        border-collapse: collapse;
+
+}
+table.DataGridList tr.SelectedItemStyle
+{
+        vertical-align : top;
+        background-color: #FFCC00;
+        color :  Black;
+}
+table.DataGridList tr.SelectedItemStyle a
+{
+        text-decoration : none;
+        color : black;
+}
+table.DataGridList tr.AlternatingItemStyle
+{
+        vertical-align : top;
+        background-color : #FFFFFF;
+        color : black;
+}
+table.DataGridList tr.AlternatingItemStyle a
+{
+                text-decoration : none;
+                color : black;
+}
+table.DataGridList tr.AlternatingItemStyle a:hover
+{
+  text-decoration : none;
+  color : red;
+}
+table.DataGridList tr.ItemStyle
+{
+    vertical-align : top;
+    background-color : #F5F5F5;
+    color : black;
+}
+table.DataGridList tr.ItemStyle a
+{
+        text-decoration : none;
+        color : black;
+}
+table.DataGridList tr.ItemStyle a:hover
+{
+        text-decoration : none;
+        color : red;
+}
+
+table.DataGridList tr.PageNavigation
+{
+        margin: 0px;
+        border-top-style :solid;
+        border-width:1px;
+        border-color: Black;
+        font-size: 11px;
+        font-weight: bold ;
+        text-align :left;
+        height: 25px;
+        color : White;
+}
+table.DataGridList tr.PageNavigation a
+{
+        text-decoration : none;
+        color : White;
+}
+table.DataGridList tr.PageNavigation a:hover
+{
+        text-decoration : none;
+        color : Yellow;
+}
+table.DataGridList tr.HeaderStyle
+{
+        margin: 0px;
+        padding: 6px 4px 2px 4px;
+        border-bottom :#666666 10px solid;
+        /*border-width:1px;
+        border-color: Black;*/
+        font-size: 11px;
+        font-weight: bold ;
+        text-align :center;
+        height: 25px;
+        color : balck;
+        background-color : #C9C9C9;
+        background: url(../images/background.jpg);
+        background-repeat: repeat;
+}
+table.DataGridList tr.HeaderStyle td
+{
+        text-decoration : none;
+        color : balck;
+        text-align :center;
+}
+
+table.DataGridList tr.HeaderStyle td a
+{
+        text-decoration : none;
+        color : balck;
+        text-align :center;
+}
+table.DataGridList tr.HeaderStyle td a:hover
+
+{
+        text-decoration: none;
+        color: 3333cc;
+        text-align: center;
+}
+
+
+table.DataGridList tr.FooterStyle
+{
+        margin: 0px;
+        padding: 6px 4px 2px 4px;
+        border-bottom :#666666 10px solid;
+        font-size: 11px;
+        font-weight: bold ;
+        text-align :right;
+        height: 25px;
+        color : balck;
+        background-color : #C9C9C9;
+        background: url(../images/background.jpg);
+        background-repeat: repeat;
+}
+table.DataGridList tr.FooterStyle td
+{
+        text-decoration : none;
+        color : balck;
+        text-align :right;
+}
+
+table.DataGridList tr.FooterStyle td a
+{
+        text-decoration : none;
+        color : balck;
+        text-align :right;
+}
+table.DataGridList tr.FooterStyle td a:hover
+
+{
+        text-decoration: none;
+        color: 3333cc;
+        text-align: center;
+}
+
+table.DataGridList tr.PageStyle
+{
+        margin: 0px;
+        padding: 6px 4px 2px 4px;
+        /*border-bottom-style :solid;
+        border-width:1px;
+        border-color: Black;*/
+        font-size: 14px;
+        font-weight: bold ;
+        text-align :right;
+        height: 25px;
+        color : Black;
+        background: url(../images/background2.jpg);
+        background-repeat: repeat;
+}
+
+table.DataGridList tr.PageStyle a
+{
+        font-size: 12px;
+        font-weight: bold ;
+        text-align :right;
+}
+
+table.DataGridList tr.PageStyle td
+{
+        font-size: 12px;
+        font-weight: bold ;
+        text-align :right;
+}
+
+table.DataGridList tr.PageStyle td.a
+{
+        font-size: 12px;
+        font-weight: bold ;
+        text-align :right;
+}
+
+.CurrentPage {font-weight:bold;color:black;}
+.HotLink {font-size: 12px; font-weight: bold ; text-align :center; }
+.MoreInfoPanel { BORDER-RIGHT: black 1px solid; BORDER-TOP: #eeeeee; BACKGROUND: #eeeeee; BORDER-LEFT: black 1px solid; WIDTH: 100%; BORDER-BOTTOM: black 1px solid; HEIGHT: 100px }
+.MoreInfoText { FONT-SIZE: 8pt; WIDTH: 100%; FONT-FAMILY: verdana }
+.MoreInfoPanelTab { BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND: #eeeeee; BORDER-LEFT: black 1px solid; WIDTH: 18%; BORDER-BOTTOM: #eeeeee; FONT-FAMILY: verdana; HEIGHT: 15px }
+.BottomBar { BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: gainsboro; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: gainsboro; PADDING-BOTTOM: 4px; BORDER-LEFT: black 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: verdana }
+
+.normal-black
+{
+        font-family : verdana;
+        font-size : 11px;
+        font-weight : normal;
+        color:#000000;
+}
+
+.normal-white
+{
+        font-family : verdana;
+        font-size : 11px;
+        font-weight : normal;
+        color:#FFFFFF;
+}
+
+
+a.toolbar {
+        color : #808080;
+		background-color: #DDDDDD;
+        text-align : center;
+        text-decoration : none;
+        display: inline-block;
+        border: 1px solid #999999;
+        /*width: 40px;*/
+        padding: 0px 4px 0px 4px;
+        margin : 2px;
+}
+a.toolbar:hover {
+        color : #C64934;
+        text-align : center;
+        border: 1px solid #c24733;
+        background-color: #f1e8e6;
+        padding: 0px 4px 0px 4px;
+        margin : 2px;
+}
+a.toolbar:active {
+        text-align : center;
+        color : #FF9900;
+}
+
+
+a.toolbar2 {
+        color : #808080;
+        text-align : center;
+        text-decoration : none;
+        display: block;
+        border: 1px solid #DDD;
+        width: 60px;
+        padding: 0px 1px 0px 1px;
+        margin : 0px;
+}
+a.toolbar2:hover {
+        color : #C64934;
+        text-align : center;
+        border: 1px solid #c24733;
+        background-color: #f1e8e6;
+        padding: 0px 0px 0px 2px;
+        margin : 0px;
+}
+a.toolbar2:active {
+        text-align : center;
+        color : #FF9900;
+}
+
+
+/* standard list style table */
+table.statuslist {
+        background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #ddd;
+        border-spacing: 0px;
+        width: 100%;
+        border-collapse: collapse;
+}
+
+table.statuslist th {
+        margin: 0px;
+        padding: 6px 4px 2px 4px;
+        background-color : #C9C9C9;
+        font-size: 11px;
+        color: #000;
+}
+table.statuslist th.title {
+        text-align: center;
+        background-color:#6666CC;
+        color : #FFFFFF;
+        font-weight : bold;
+}
+table.statuslist td.title {
+        font-size: 11px;
+        font-weight:bold;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: center;
+        height: 25px;
+        color: #000;
+        background-color : #C9C9C9;
+}
+table.statuslist th a:link, table.statuslist th a:visited {
+        color: #c64934;
+        text-decoration: none;
+}
+
+table.statuslist th a:hover {
+        text-decoration: underline;
+}
+
+table.statuslist tr.row0 {
+        background-color: #F9F9F9;
+}
+table.statuslist tr.row1 {
+        background-color: #FFF;
+}
+table.statuslist td {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 2px;
+}
+table.statuslist td.lastitem {
+        font-weight:bold;
+        color:Blue;
+}
+table.statuslist tr.row0:hover {
+        background-color: #f1f1f1;
+}
+table.statuslist tr.row1:hover {
+        background-color: #f1f1f1;
+}
+table.statuslist td.options {
+        background-color: #ffffff;
+        font-size: 8px;
+}
+
+
+.tabDetil {
+        color : Blue;
+        text-align : center;
+        border: 1px solid #c24733;
+        background-color:Silver;
+        padding: 1px 1px 1px 2px;
+        margin : 0px;
+        display: block;
+        cursor :hand;
+        font-weight:normal;
+}
+.tabDetilSelect {
+        color : Black;
+        text-align : center;
+        border: 1px solid #c24733;
+        background-color: Aqua;
+        padding: 1px 1px 1px 2px;
+        margin : 0px;
+        display: block;
+        cursor :default;
+        font-weight:bold;
+}
+.FormLabel {
+  background-color: #D5D5EE; 
+  color: #000000; 
+  border-width: 1px; 
+  border-style: outset; 
+  font-size: 11px;
+  /*font-weight: bold;*/
+  padding-left: 2px; 
+  padding-right: 1px; 
+  vertical-align : top;
+}
+
+.FormField {
+  background-color: #DDDDDD; 
+  color: #000000; 
+  border-width: 1px; 
+  border-style: outset; 
+  font-size: 11px; 
+  font-weight:bold ;
+  padding-left: 2px; 
+  padding-right: 2px; 
+  vertical-align : top;
+}
+
+/* Table Control*/
+table.userControl {
+        background-color: #f9f9f9;
+        border: solid 1px #ffae00;
+        width: 100%;
+        /*padding: 10px;*/
+        padding:0px  10px 10px 10px;
+        border-collapse: collapse;
+}
+table.userControl tr.row0 {
+        background-color: #f9f9f9;
+}
+table.userControl tr.row1 {
+        background-color: #eeeeee;
+}
+table.userControl th {
+        font-size: 11px;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: left;
+        height: 25px;
+        background: url(../images/background.jpg);
+        color: #000;
+        background-repeat: repeat;
+}
+table.userControl td {
+        padding: 3px;
+}
+
+.asetselector{
+	BORDER-TOP: 2px solid #FF9900;
+	BORDER-BOTTOM: 2px solid #FF9900;
+	BORDER-LEFT: 2px solid #FF9900;
+	BORDER-RIGHT: 2px solid #FF9900;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* Table Control Reminder list*/
+table.ucreminderlist {
+        background-color: #f9f9f9;
+        border: solid 1px #ffae00;
+        width: 100%;
+        /*padding: 10px;*/
+        padding:0px  10px 10px 10px;
+        border-collapse: collapse;
+}
+table.ucreminderlist tr.row0 {
+        background-color: #f9f9f9;
+}
+table.ucreminderlist tr.row1 {
+        background-color: #eeeeee;
+}
+table.ucreminderlist th {
+        font-size: 11px;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: left;
+        height: 25px;
+        background: url(../images/background.jpg);
+        color: #000;
+        background-repeat: repeat;
+}
+table.ucreminderlist td {
+        padding: 3px;
+}
+
+table.headerListAset
+{
+	color : White;
+	font-weight : bold;
+	background-color : #6d95e5 ;
+}
+
+table.tblListFilter {
+        background-color: #FFFFFF;
+        border: solid 1px #d5d5d5;
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+}
+table.tblListFilter td {
+	padding: 0px 0px 0px 2px;
+}
+
+

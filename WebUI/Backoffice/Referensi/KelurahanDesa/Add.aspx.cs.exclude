@@ -1,0 +1,245 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Backoffice_Referensi_KelurahanDesa_Add : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!Page.IsPostBack)
+        {
+            if (Session["SIMRS.UserId"] == null)
+            {
+                Response.Redirect(Request.ApplicationPath + "/Backoffice/login.aspx");
+            }
+            int UserId = (int)Session["SIMRS.UserId"];
+            if (Session["KelurahanDesaManagement"] == null)
+            {
+                Response.Redirect(Request.ApplicationPath + "/Backoffice/UnAuthorize.aspx");
+            }
+            btnSave.Text = "<center><img alt=\"" + Resources.GetString("", "Save") + "\" src=\"" + Request.ApplicationPath + "/images/save_f2.gif\" align=\"middle\" border=\"0\" name=\"save\" value=\"save\"><center>";
+            btnCancel.Text = "<center><img alt=\"" + Resources.GetString("", "Cancel") + "\" src=\"" + Request.ApplicationPath + "/images/cancel_f2.gif\" align=\"middle\" border=\"0\" name=\"cancel\" value=\"cancel\"><center>";
+
+            GetListPropinsi();
+        }
+
+    }
+
+    public void GetListPropinsi()
+    {
+        string propId = "";
+        if (Request.QueryString["propId"] != null)
+            propId = Request.QueryString["propId"].ToString();
+
+        BkNet.DataAccess.Propinsi myObj = new BkNet.DataAccess.Propinsi();
+        DataTable dt = myObj.GetList();
+        cmbPropinsi.Items.Clear();
+        int i = 0;
+        cmbPropinsi.Items.Add("");
+        cmbPropinsi.Items[i].Text = "";
+        cmbPropinsi.Items[i].Value = "";
+        i++;
+        foreach (DataRow dr in dt.Rows)
+        {
+            cmbPropinsi.Items.Add("");
+            cmbPropinsi.Items[i].Text = dr["Kode"].ToString() + ". [" + dr["Nama"].ToString() + "]";
+            cmbPropinsi.Items[i].Value = dr["Id"].ToString();
+            if (dr["Id"].ToString() == propId)
+            {
+                txtKodeProp.Value = dr["Kode"].ToString();
+                cmbPropinsi.SelectedIndex = i;
+            }
+            i++;
+        }
+        GetListKabupatenKota();
+    }
+
+    public void GetListKabupatenKota()
+    {
+        string kabId = "";
+        if (Request.QueryString["kabId"] != null)
+            kabId = Request.QueryString["kabId"].ToString();
+
+        BkNet.DataAccess.KabupatenKota myObj = new BkNet.DataAccess.KabupatenKota();
+        if (cmbPropinsi.SelectedIndex > 0)
+            myObj.PropinsiId = int.Parse(cmbPropinsi.SelectedValue);
+        DataTable dt = myObj.GetListWPropinsiIdLogic();
+        cmbKabupatenKota.Items.Clear();
+        int i = 0;
+        cmbKabupatenKota.Items.Add("");
+        cmbKabupatenKota.Items[i].Text = "";
+        cmbKabupatenKota.Items[i].Value = "";
+        i++;
+        foreach (DataRow dr in dt.Rows)
+        {
+            cmbKabupatenKota.Items.Add("");
+            cmbKabupatenKota.Items[i].Text = dr["Kode"].ToString() + ". [" + dr["Nama"].ToString() + "]";
+            cmbKabupatenKota.Items[i].Value = dr["Id"].ToString();
+            if (dr["Id"].ToString() == kabId)
+            {
+                string[] kodekab = dr["Kode"].ToString().Split('.');
+                txtKodeKab.Value = kodekab[1];
+                cmbKabupatenKota.SelectedIndex = i;
+            }
+            i++;
+        }
+        GetListKecamatan();
+    }
+
+    public void GetListKecamatan()
+    {
+        string kecId = "";
+        if (Request.QueryString["kecId"] != null)
+            kecId = Request.QueryString["kecId"].ToString();
+
+        BkNet.DataAccess.Kecamatan myObj = new BkNet.DataAccess.Kecamatan();
+        if (cmbKabupatenKota.SelectedIndex > 0)
+            myObj.KabupatenKotaId = int.Parse(cmbKabupatenKota.SelectedValue);
+        DataTable dt = myObj.GetListWKabupatenKotaIdLogic();
+        cmbKecamatan.Items.Clear();
+        int i = 0;
+        cmbKecamatan.Items.Add("");
+        cmbKecamatan.Items[i].Text = "";
+        cmbKecamatan.Items[i].Value = "";
+        i++;
+        foreach (DataRow dr in dt.Rows)
+        {
+            cmbKecamatan.Items.Add("");
+            cmbKecamatan.Items[i].Text = dr["Kode"].ToString() + ". [" + dr["Nama"].ToString() + "]";
+            cmbKecamatan.Items[i].Value = dr["Id"].ToString();
+            if (dr["Id"].ToString() == kecId)
+            {
+                string[] kodekec = dr["Kode"].ToString().Split('.');
+                txtKodeKec.Value = kodekec[2];
+                cmbKecamatan.SelectedIndex = i;
+            }
+            i++;
+        }
+    }
+
+    public void OnPropinsiChanged(object sender, System.EventArgs e)
+    {
+        GetListKabupatenKota();
+        if (cmbPropinsi.SelectedIndex > 0)
+        {
+            string[] kodeprop = cmbPropinsi.SelectedItem.Text.Split('.');
+            txtKodeProp.Value = kodeprop[0];
+        }
+        else
+        {
+            txtKodeProp.Value = "";
+        }
+        txtKodeKab.Value = "";
+        txtKodeKec.Value = "";
+        txtKodeDesa.Value = "";
+    }
+    public void OnKabupatenKotaChanged(object sender, System.EventArgs e)
+    {
+        GetListKecamatan();
+        if (cmbKabupatenKota.SelectedIndex > 0)
+        {
+            string[] kodekab = cmbKabupatenKota.SelectedItem.Text.Split('.');
+            txtKodeKab.Value = kodekab[1];
+        }
+        else
+        {
+            txtKodeKab.Value = "";
+        }
+        txtKodeKec.Value = "";
+        txtKodeDesa.Value = "";
+    }
+    public void OnKecamatanChanged(object sender, System.EventArgs e)
+    {
+        if (cmbKecamatan.SelectedIndex > 0)
+        {
+            string[] kodeKec = cmbKecamatan.SelectedItem.Text.Split('.');
+            txtKodeKec.Value = kodeKec[2];
+        }
+        else
+        {
+            txtKodeKec.Value = "";
+        }
+        txtKodeDesa.Value = "";
+    }
+
+    /// <summary>
+    /// This function is responsible for save data into database.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    public void OnSave(Object sender, EventArgs e)
+    {
+        if (Session["SIMRS.UserId"] == null)
+        {
+            Response.Redirect(Request.ApplicationPath + "/Backoffice/login.aspx");
+        }
+        int UserId = (int)Session["SIMRS.UserId"];
+        if (!Page.IsValid)
+        {
+            return;
+        }
+
+        BkNet.DataAccess.KelurahanDesa myObj = new BkNet.DataAccess.KelurahanDesa();
+        myObj.Id = 0;
+        myObj.KecamatanId = int.Parse(cmbKecamatan.SelectedValue);
+        myObj.Kode = txtKodeProp.Value + "." + txtKodeKab.Value + "." + txtKodeKec.Value + "." + txtKodeDesa.Value;
+        myObj.Nama = txtNama.Text;
+        myObj.KodePos = txtKodePos.Value;
+        myObj.Keterangan = txtKeterangan.Text;
+        myObj.Published = rbtYes.Checked ? true : false;
+        myObj.CreatedBy = UserId;
+        myObj.CreatedDate = DateTime.Now;
+
+        if (myObj.IsExist())
+        {
+            lblError.Text = Resources.GetString("Referensi", "WarExistKel");
+            return;
+        }
+        else
+        {
+            myObj.Insert();
+            HttpRuntime.Cache.Remove("SIMRS_KelurahanDesa");
+            string CurrentPage = "";
+            if (Request.QueryString["CurrentPage"] != null && Request.QueryString["CurrentPage"].ToString() != "")
+                CurrentPage = Request.QueryString["CurrentPage"].ToString();
+            string propId = "";
+            if (cmbPropinsi.SelectedIndex > 0)
+                propId = cmbPropinsi.SelectedValue;
+            string kabId = "";
+            if (cmbKabupatenKota.SelectedIndex > 0)
+                kabId = cmbKabupatenKota.SelectedValue;
+            string kecId = "";
+            if (cmbKecamatan.SelectedIndex > 0)
+                kecId = cmbKecamatan.SelectedValue;
+            Response.Redirect("List.aspx?CurrentPage=" + CurrentPage + "&propId=" + propId + "&kabId=" + kabId + "&kecId=" + kecId);
+        }
+    }
+    /// <summary>
+    /// This function is responsible for cancel save data into database.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    public void OnCancel(Object sender, EventArgs e)
+    {
+        string CurrentPage = "";
+        if (Request.QueryString["CurrentPage"] != null && Request.QueryString["CurrentPage"].ToString() != "")
+            CurrentPage = Request.QueryString["CurrentPage"].ToString();
+        string propId = "";
+        if (Request.QueryString["propId"] != null)
+            propId = Request.QueryString["propId"].ToString();
+        string kabId = "";
+        if (Request.QueryString["kabId"] != null)
+            kabId = Request.QueryString["kabId"].ToString();
+        string kecId = "";
+        if (Request.QueryString["kecId"] != null)
+            kecId = Request.QueryString["kecId"].ToString();
+        Response.Redirect("List.aspx?CurrentPage=" + CurrentPage + "&propId=" + propId + "&kabId=" + kabId + "&kecId=" + kecId);
+    }
+}

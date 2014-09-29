@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Resource>
+   <item name="SelectAll">All [Semua Data]</item>
+   <item name="SelectLokasi">-- Pilih Lokasi ! --</item>
+  
+  <!-- Referensi Propinsi-->
+   <item name="TitleListPropinsi">Data Referensi Propinsi</item>
+   <item name="TitleAddPropinsi">Tambah Propinsi</item>
+   <item name="TitleEditPropinsi">Edit Propinsi</item>
+   <item name="TitleDeletePropinsi">Hapus Propinsi</item>
+   <item name="AddPropinsi">Tambah Propinsi</item>
+   <item name="EditPropinsi">Edit</item>
+   <item name="DeletePropinsi">Hapus</item>
+   <item name="SelectPropinsi">-- Pilih Propinsi ! --</item>
+   <item name="WarSelectPropinsi">Propinsi harus dipilih !</item>
+   <item name="WarExistPropinsi">Data Referensi Propinsi Sudah ada dalam database silahkan periksa kembali!</item>
+
+   <!-- Referensi Kabupaten/Kota-->
+   <item name="TitleListKabupatenKota">Data Referensi Kabupaten/Kota</item>
+   <item name="TitleAddKabupatenKota">Tambah Kabupaten/Kota</item>
+   <item name="TitleEditKabupatenKota">Edit Kabupaten/Kota</item>
+   <item name="TitleDeleteKabupatenKota">Hapus Kabupaten/Kota</item>
+   <item name="AddKabupatenKota">Tambah Kabupaten/Kota</item>
+   <item name="EditKabupatenKota">Edit</item>
+   <item name="DeleteKabupatenKota">Hapus</item>
+   <item name="SelectKabupatenKota">-- Pilih Kabupaten/Kota ! --</item>
+   <item name="WarSelectKabupatenKota">Kabupaten/Kota harus dipilih !</item>
+   <item name="WarExistKabupatenKota">Data Referensi Kabupaten/Kota Sudah ada dalam database silahkan periksa kembali!</item>   
+
+   <!-- Referensi Kecamatan-->
+   <item name="TitleListKec">Data Referensi Kecamatan</item>
+   <item name="TitleAddKec">Tambah Kecamatan</item>
+   <item name="TitleEditKec">Edit Kecamatan</item>
+   <item name="TitleDeleteKec">Hapus Kecamatan</item>
+   <item name="AddKec">Tambah Kecamatan</item>
+   <item name="EditKec">Edit</item>
+   <item name="DeleteKec">Hapus</item>
+   <item name="SelectKec">-- Pilih Kecamatan ! --</item>
+   <item name="WarSelectKec">Kecamatan harus dipilih !</item>
+   <item name="WarExistKec">Data Referensi Kecamatan Sudah ada dalam database silahkan periksa kembali!</item>  
+   
+   <!-- Referensi Kelurahan/Desa-->
+   <item name="TitleListKel">Data Referensi Kelurahan/Desa</item>
+   <item name="TitleAddKel">Tambah Kelurahan/Desa</item>
+   <item name="TitleEditKel">Edit Kelurahan/Desa</item>
+   <item name="TitleDeleteKel">Hapus Kelurahan/Desa</item>
+   <item name="AddKel">Tambah Kelurahan/Desa</item>
+   <item name="EditKel">Edit</item>
+   <item name="DeleteKel">Hapus</item>
+   <item name="SelectKel">-- Pilih Kelurahan/Desa ! --</item>
+   <item name="WarSelectKel">Kelurahan/Desa harus dipilih !</item>
+   <item name="WarExistKel">Data Referensi Kelurahan/Desa Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Ruangan-->
+  <item name="TitleListRuang">Data Referensi Ruangan</item>
+  <item name="TitleAddRuang">Tambah Ruangan</item>
+  <item name="TitleEditRuang">Edit Ruangan</item>
+  <item name="TitleDeleteRuang">Hapus Ruangan</item>
+  <item name="AddRuang">Tambah Ruangan</item>
+  <item name="EditRuang">Edit</item>
+  <item name="DeleteRuang">Hapus</item>
+  <item name="SelectRuang">-- Pilih Ruangan ! --</item>
+  <item name="WarSelectRuang">Ruangan harus dipilih !</item>
+  <item name="WarExistRuang">Data Referensi Ruangan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Kelas-->
+  <item name="TitleListKelas">Data Referensi Kelas</item>
+  <item name="TitleAddKelas">Tambah Kelas</item>
+  <item name="TitleEditKelas">Edit Kelas</item>
+  <item name="TitleDeleteKelas">Hapus Kelas</item>
+  <item name="AddKelas">Tambah Kelas</item>
+  <item name="EditKelas">Edit</item>
+  <item name="DeleteKelas">Hapus</item>
+  <item name="SelectKelas">-- Pilih Kelas ! --</item>
+  <item name="WarSelectKelas">Kelas harus dipilih !</item>
+  <item name="WarExistKelas">Data Referensi Kelas Sudah ada dalam database silahkan periksa kembali!</item>
+ 
+  <!-- Referensi RuangRawat-->
+  <item name="TitleListRuangRawat">Data Referensi Ruang Rawat</item>
+  <item name="TitleAddRuangRawat">Tambah Ruang Rawat</item>
+  <item name="TitleEditRuangRawat">Edit Ruang Rawat</item>
+  <item name="TitleDeleteRuangRawat">Hapus Ruang Rawat</item>
+  <item name="AddRuangRawat">Tambah Ruang Rawat</item>
+  <item name="EditRuangRawat">Edit</item>
+  <item name="DeleteRuangRawat">Hapus</item>
+  <item name="SelectRuangRawat">-- Pilih Ruang Rawat ! --</item>
+  <item name="WarSelectRuangRawat">Kelas Ruang Rawat harus dipilih !</item>
+  <item name="WarExistRuangRawat">Data Referensi Ruang Rawat Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi TempatTidur-->
+  <item name="TitleListTempatTidur">Data Referensi Tempat Tidur</item>
+  <item name="TitleAddTempatTidur">Tambah Tempat Tidur</item>
+  <item name="TitleEditTempatTidur">Edit Tempat Tidur</item>
+  <item name="TitleDeleteTempatTidur">Hapus Tempat Tidur</item>
+  <item name="AddTempatTidur">Tambah Tempat Tidur</item>
+  <item name="EditTempatTidur">Edit</item>
+  <item name="DeleteTempatTidur">Hapus</item>
+  <item name="SelectTempatTidur">-- Pilih Tempat Tidur ! --</item>
+  <item name="WarSelectTempatTidur">Kelas Tempat Tidur harus dipilih !</item>
+  <item name="WarExistTempatTidur">Data Referensi Tempat Tidur Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Poliklinik-->
+  <item name="TitleListPoliklinik">Data Referensi Poliklinik</item>
+  <item name="TitleAddPoliklinik">Tambah Poliklinik</item>
+  <item name="TitleEditPoliklinik">Edit Poliklinik</item>
+  <item name="TitleDeletePoliklinik">Hapus Poliklinik</item>
+  <item name="AddPoliklinik">Tambah Poliklinik</item>
+  <item name="EditPoliklinik">Edit</item>
+  <item name="DeletePoliklinik">Hapus</item>
+  <item name="SelectPoliklinik">-- Pilih Poliklinik ! --</item>
+  <item name="WarSelectPoliklinik">Poliklinik harus dipilih !</item>
+  <item name="WarExistPoliklinik">Data Referensi Poliklinik Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Spesialis-->
+  <item name="TitleListSpesialis">Data Referensi Spesialis Dokter</item>
+  <item name="TitleAddSpesialis">Tambah Spesialis Dokter</item>
+  <item name="TitleEditSpesialis">Edit Spesialis Dokter</item>
+  <item name="TitleDeleteSpesialis">Hapus Spesialis Dokter</item>
+  <item name="AddSpesialis">Tambah Spesialis Dokter</item>
+  <item name="EditSpesialis">Edit</item>
+  <item name="DeleteSpesialis">Hapus</item>
+  <item name="SelectSpesialis">-- Pilih Spesialis Dokter! --</item>
+  <item name="WarSelectSpesialis">Spesialis Dokter harus dipilih !</item>
+  <item name="WarExistSpesialis">Data Referensi Spesialis Dokter Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Status-->
+  <item name="TitleListStatus">Data Referensi Status Pasien/Penanggung</item>
+  <item name="TitleAddStatus">Tambah Status Pasien/Penanggung</item>
+  <item name="TitleEditStatus">Edit Status Pasien/Penanggung</item>
+  <item name="TitleDeleteStatus">Hapus Status Pasien/Penanggung</item>
+  <item name="AddStatus">Tambah Status</item>
+  <item name="EditStatus">Edit</item>
+  <item name="DeleteStatus">Hapus</item>
+  <item name="SelectStatus">-- Pilih Status ! --</item>
+  <item name="WarSelectStatus">Status harus dipilih !</item>
+  <item name="WarExistStatus">Data Referensi Status Pasien/Penanggung Sudah ada dalam database silahkan periksa kembali!</item>
+ 
+  <!-- Referensi Pangkat-->
+  <item name="TitleListPangkat">Data Referensi Pangkat Pasien/Penanggung</item>
+  <item name="TitleAddPangkat">Tambah Pangkat Pasien/Penanggung</item>
+  <item name="TitleEditPangkat">Edit Pangkat Pasien/Penanggung</item>
+  <item name="TitleDeletePangkat">Hapus Pangkat Pasien/Penanggung</item>
+  <item name="AddPangkat">Tambah Pangkat</item>
+  <item name="EditPangkat">Edit</item>
+  <item name="DeletePangkat">Hapus</item>
+  <item name="SelectPangkat">-- Pilih Pangkat ! --</item>
+  <item name="WarSelectPangkat">Pangkat harus dipilih !</item>
+  <item name="WarExistPangkat">Data Referensi Pangkat Pasien/Penanggung Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Dokter-->
+  <item name="TitleListDokter">Data Referensi Dokter</item>
+  <item name="TitleAddDokter">Tambah Dokter</item>
+  <item name="TitleEditDokter">Edit Dokter</item>
+  <item name="TitleDeleteDokter">Hapus Dokter</item>
+  <item name="AddDokter">Tambah Dokter</item>
+  <item name="EditDokter">Edit</item>
+  <item name="DeleteDokter">Hapus</item>
+  <item name="SelectDokter">-- Pilih Dokter ! --</item>
+  <item name="WarSelectDokter">Dokter harus dipilih !</item>
+  <item name="WarExistDokter">Data Referensi Dokter Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi JadwalDokter-->
+  <item name="TitleListJadwalDokter">Data Referensi Jadwal Dokter</item>
+  <item name="TitleAddJadwalDokter">Tambah Jadwal Dokter</item>
+  <item name="TitleEditJadwalDokter">Edit Jadwal Dokter</item>
+  <item name="TitleDeleteJadwalDokter">Hapus Jadwal Dokter</item>
+  <item name="AddJadwalDokter">Tambah Jadwal Dokter</item>
+  <item name="EditJadwalDokter">Edit</item>
+  <item name="DeleteJadwalDokter">Hapus</item>
+  <item name="SelectJadwalDokter">-- Pilih Jadwal Dokter ! --</item>
+  <item name="WarSelectJadwalDokter">Jadwal Dokter harus dipilih !</item>
+  <item name="WarExistJadwalDokter">Data Referensi Jadwal Dokter Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Jenis Penyakitan-->
+  <item name="TitleListJenisPenyakit">Data Referensi Jenis Penyakitan</item>
+  <item name="TitleAddJenisPenyakit">Tambah Jenis Penyakitan</item>
+  <item name="TitleEditJenisPenyakit">Edit Jenis Penyakitan</item>
+  <item name="TitleDeleteJenisPenyakit">Hapus Jenis Penyakitan</item>
+  <item name="AddJenisPenyakit">Tambah Jenis Penyakitan</item>
+  <item name="EditJenisPenyakit">Edit</item>
+  <item name="DeleteJenisPenyakit">Hapus</item>
+  <item name="SelectJenisPenyakit">-- Pilih Jenis Penyakitan ! --</item>
+  <item name="WarSelectJenisPenyakit">Jenis Penyakitan harus dipilih !</item>
+  <item name="WarExistJenisPenyakit">Data Referensi Jenis Penyakitan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Layanan-->
+  <item name="TitleListLayanan">Data Referensi Layanan</item>
+  <item name="TitleAddLayanan">Tambah Layanan</item>
+  <item name="TitleEditLayanan">Edit Layanan</item>
+  <item name="TitleDeleteLayanan">Hapus Layanan</item>
+  <item name="AddLayanan">Tambah Layanan</item>
+  <item name="EditLayanan">Edit</item>
+  <item name="DeleteLayanan">Hapus</item>
+  <item name="SelectLayanan">-- Pilih Layanan ! --</item>
+  <item name="WarSelectLayanan">Layanan harus dipilih !</item>
+  <item name="WarExistLayanan">Data Referensi Layanan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Tarif-->
+  <item name="TitleListTarif">Data Referensi Tarif</item>
+  <item name="TitleAddTarif">Tambah Tarif</item>
+  <item name="TitleEditTarif">Edit Tarif</item>
+  <item name="TitleDeleteTarif">Hapus Tarif</item>
+  <item name="AddTarif">Tambah Tarif</item>
+  <item name="EditTarif">Edit</item>
+  <item name="DeleteTarif">Hapus</item>
+  <item name="SelectTarif">-- Pilih Tarif ! --</item>
+  <item name="WarSelectTarif">Tarif harus dipilih !</item>
+  <item name="WarExistTarif">Data Referensi Tarif Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Jenis Pemeriksaan-->
+  <item name="TitleListJenisPemeriksaan">Data Referensi Jenis Pemeriksaan</item>
+  <item name="TitleAddJenisPemeriksaan">Tambah Jenis Pemeriksaan</item>
+  <item name="TitleEditJenisPemeriksaan">Edit Jenis Pemeriksaan</item>
+  <item name="TitleDeleteJenisPemeriksaan">Hapus Jenis Pemeriksaan</item>
+  <item name="AddJenisPemeriksaan">Tambah Jenis Pemeriksaan</item>
+  <item name="EditJenisPemeriksaan">Edit</item>
+  <item name="DeleteJenisPemeriksaan">Hapus</item>
+  <item name="SelectJenisPemeriksaan">-- Pilih Jenis Pemeriksaan ! --</item>
+  <item name="WarSelectJenisPemeriksaan">Jenis Pemeriksaan harus dipilih !</item>
+  <item name="WarExistJenisPemeriksaan">Data Referensi Jenis Pemeriksaan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Kelompok Pemeriksaan/ Detil Penunjang -->
+  <item name="TitleListKelompokPemeriksaan">Data Referensi Kelompok Pemeriksaan</item>
+  <item name="TitleAddKelompokPemeriksaan">Tambah Kelompok Pemeriksaan</item>
+  <item name="TitleEditKelompokPemeriksaan">Edit Kelompok Pemeriksaan</item>
+  <item name="TitleDeleteKelompokPemeriksaan">Hapus Kelompok Pemeriksaan</item>
+  <item name="AddKelompokPemeriksaan">Tambah Kelompok Pemeriksaan</item>
+  <item name="EditKelompokPemeriksaan">Edit</item>
+  <item name="DeleteKelompokPemeriksaan">Hapus</item>
+  <item name="SelectKelompokPemeriksaan">-- Pilih Kelompok Pemeriksaan ! --</item>
+  <item name="WarSelectKelompokPemeriksaan">Kelompok Pemeriksaan harus dipilih !</item>
+  <item name="WarExistKelompokPemeriksaan">Data Referensi Kelompok Pemeriksaan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Referensi Satuan Kerja -->
+  <item name="TitleListSatuanKerja">Data Referensi Satuan Kerja</item>
+  <item name="TitleAddSatuanKerja">Tambah Satuan Kerja</item>
+  <item name="TitleEditSatuanKerja">Edit Satuan Kerja</item>
+  <item name="TitleDeleteSatuanKerja">Hapus Satuan Kerja</item>
+  <item name="AddSatuanKerja">Tambah Satuan Kerja</item>
+  <item name="EditSatuanKerja">Edit</item>
+  <item name="DeleteSatuanKerja">Hapus</item>
+  <item name="SelectSatuanKerja">-- Pilih Satuan Kerja ! --</item>
+  <item name="WarSelectSatuanKerja">Satuan Kerja harus dipilih !</item>
+  <item name="WarExistSatuanKerja">Data Referensi Satuan Kerja Sudah ada dalam database silahkan periksa kembali!</item>
+
+</Resource>

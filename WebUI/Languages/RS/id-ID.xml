@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Resource>
+
+  
+  <item name="TitleSeacrPasien">Pencarian Data Pasien</item>
+
+  <!-- Registrasi-->
+  <item name="TitleRegistrasiListRJ">Registrasi Rawat Jalan</item>
+  <item name="TitleRegistrasiAddRJ">Tambah Data Registrasi Rawat Jalan</item>
+  <item name="TitleRegistrasiEditRJ">Edit Data Registrasi Rawat Jalan</item>
+  <item name="TitleRegistrasiDeleteRJ">Hapus Data Registrasi Rawat Jalan</item>
+  <item name="WarExistRegistrasiRJ">Data Data Registrasi Rawat Jalan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleRegistrasiListRI">Registrasi Rawat Inap</item>
+  <item name="TitleRegistrasiAddRI">Tambah Registrasi Rawat Inap</item>
+  <item name="TitleRegistrasiEditRI">Edit Registrasi Rawat Inap</item>
+  <item name="TitleRegistrasiDeleteRI">Hapus Data Registrasi Rawat Inap</item>
+  <item name="WarExistRegistrasiRI">Data Registrasi Rawat Inap Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleRegistrasiListUGD">Registrasi UGD</item>
+  <item name="TitleRegistrasiAddUGD">Tambah Registrasi UGD</item>
+  <item name="TitleRegistrasiEditUGD">Edit Registrasi UGD</item>
+  <item name="TitleRegistrasiDeleteUGD">Hapus Data Registrasi UGD</item>
+  <item name="WarExistRegistrasiUGD">Data Registrasi UGD Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleRegistrasiListLAB">Registrasi Laboratorium</item>
+  <item name="TitleRegistrasiAddLAB">Tambah Data Registrasi Laboratorium</item>
+  <item name="TitleRegistrasiAddLABRJ">Tambah Data Registrasi Laboratorium Dari Pasien Rawat Jalan</item>
+  <item name="TitleRegistrasiAddLABRI">Tambah Data Registrasi Laboratorium Dari Pasien Rawat Inap</item>
+  <item name="TitleRegistrasiEditLAB">Edit Data Registrasi Laboratorium</item>
+  <item name="TitleRegistrasiDeleteLAB">Hapus Data Registrasi Laboratorium</item>
+  <item name="WarExistRegistrasiLAB">Data Registrasi Laboratorium Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleRegistrasiListRAD">Registrasi Radiologi</item>
+	<item name="TitleRegistrasiAddRAD">Tambah Data Registrasi Radiologi</item>
+	<item name="TitleRegistrasiAddRADRJ">Tambah Data Registrasi Radiologi Dari Pasien Rawat Jalan</item>
+	<item name="TitleRegistrasiAddRADRI">Tambah Data Registrasi Radiologi Dari Pasien Rawat Inap</item>
+	<item name="TitleRegistrasiEditRAD">Edit Data Registrasi Radiologi</item>
+	<item name="TitleRegistrasiDeleteRAD">Hapus Data Registrasi Radiologi</item>
+	<item name="WarExistRegistrasiRAD">Data Registrasi Radiologi Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleRegistrasiListFIS">Registrasi Fisioterapi</item>
+	<item name="TitleRegistrasiAddFIS">Tambah Data Registrasi Fisioterapi</item>
+	<item name="TitleRegistrasiAddFISRJ">Tambah Data Registrasi Fisioterapi Dari Pasien Rawat Jalan</item>
+	<item name="TitleRegistrasiAddFISRI">Tambah Data Registrasi Fisioterapi Dari Pasien Rawat Inap</item>
+	<item name="TitleRegistrasiEditFIS">Edit Data Registrasi Fisioterapi</item>
+	<item name="TitleRegistrasiDeleteFIS">Hapus Data Registrasi Fisioterapi</item>
+	<item name="WarExistRegistrasiFIS">Data Registrasi Fisioterapi Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleRegistrasiListKUBT">Registrasi KUBT</item>
+	<item name="TitleRegistrasiAddKUBT">Tambah Data Registrasi KUBT</item>
+	<item name="TitleRegistrasiAddKUBTRJ">Tambah Data Registrasi KUBT Dari Pasien Rawat Jalan</item>
+	<item name="TitleRegistrasiAddKUBTRI">Tambah Data Registrasi KUBT Dari Pasien Rawat Inap</item>
+	<item name="TitleRegistrasiEditKUBT">Edit Data Registrasi KUBT</item>
+	<item name="TitleRegistrasiDeleteKUBT">Hapus Data Registrasi KUBT</item>
+	<item name="WarExistRegistrasiKUBT">Data Registrasi KUBT Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleRegistrasiListHemo">Registrasi Hemodialisa</item>
+	<item name="TitleRegistrasiAddHemo">Tambah Data Registrasi Hemodialisa</item>
+	<item name="TitleRegistrasiAddHemoRJ">Tambah Data Registrasi Hemodialisa Dari Pasien Rawat Jalan</item>
+	<item name="TitleRegistrasiAddHemoRI">Tambah Data Registrasi Hemodialisa Dari Pasien Rawat Inap</item>
+	<item name="TitleRegistrasiEditHemo">Edit Data Registrasi Hemodialisa</item>
+	<item name="TitleRegistrasiDeleteHemo">Hapus Data Registrasi Hemodialisa</item>
+	<item name="WarExistRegistrasiHemo">Data Registrasi Hemodialisa Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<!-- RekamMedis-->
+  <item name="TitleRekamMedisListRJ">Rekam Medis Rawat Jalan</item>
+  <item name="TitleRekamMedisAddRJ">Tambah Rekam Medis Rawat Jalan</item>
+  <item name="TitleRekamMedisEditRJ">Edit Rekam Medis Rawat Jalan</item>
+  <item name="TitleRekamMedisDeleteRJ">Hapus Rekam Medis Rawat Jalan</item>
+  <item name="WarExistRekamMedisRJ">Data Rekam Medis Rawat Jalan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleRekamMedisListRI">Rekam Medis Rawat Inap</item>
+  <item name="TitleRekamMedisAddRI">Tambah Rekam Medis Rawat Inap</item>
+  <item name="TitleRekamMedisEditRI">Edit Rekam Medis Rawat Inap</item>
+  <item name="TitleRekamMedisDeleteRI">Hapus Rekam Medis Rawat Inap</item>
+  <item name="WarExistRekamMedisRI">Data Rekam Medis Rawat Inap Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleRekamMedisListUGD">Rekam Medis UGD</item>
+  <item name="TitleRekamMedisAddUGD">Tambah Rekam Medis UGD</item>
+  <item name="TitleRekamMedisEditUGD">Edit Rekam Medis UGD</item>
+  <item name="TitleRekamMedisDeleteUGD">Hapus Rekam Medis UGD</item>
+  <item name="WarExistRekamMedisUGD">Data Rekam Medis UGD Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleRekamMedisListLAB">Rekam Medis Laboratorium</item>
+  <item name="TitleRekamMedisAddLAB">Tambah Rekam Medis Laboratorium</item>
+  <item name="TitleRekamMedisEditLAB">Edit Rekam Medis Laboratorium</item>
+  <item name="TitleRekamMedisDeleteLAB">Hapus Rekam Medis Laboratorium</item>
+  <item name="WarExistRekamMedisLAB">Data Rekam Medis Laboratorium Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleRekamMedisListRAD">Rekam Medis Radiologi</item>
+	<item name="TitleRekamMedisAddRAD">Tambah Rekam Medis Radiologi</item>
+	<item name="TitleRekamMedisEditRAD">Edit Rekam Medis Radiologi</item>
+	<item name="TitleRekamMedisDeleteRAD">Hapus Rekam Medis Radiologi</item>
+	<item name="WarExistRekamMedisRAD">Data Rekam Medis Radiologi Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleRekamMedisListFIS">Rekam Medis Fisioterapi</item>
+	<item name="TitleRekamMedisAddFIS">Tambah Rekam Medis Fisioterapi</item>
+	<item name="TitleRekamMedisEditFIS">Edit Rekam Medis Fisioterapi</item>
+	<item name="TitleRekamMedisDeleteFIS">Hapus Rekam Medis Fisioterapi</item>
+	<item name="WarExistRekamMedisFIS">Data Rekam Medis Fisioterapi Sudah ada dalam database silahkan periksa kembali!</item>
+	
+	<item name="TitleRekamMedisListHemo">Rekam Medis Hemodialisa</item>
+	<item name="TitleRekamMedisAddHemo">Tambah Rekam Medis Hemodialisa</item>
+	<item name="TitleRekamMedisEditHemo">Edit Rekam Medis Hemodialisa</item>
+	<item name="TitleRekamMedisDeleteHemo">Hapus Rekam Medis Hemodialisa</item>
+	<item name="WarExistRekamMedisHemo">Data Rekam Medis Hemodialisa Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<!-- Kasir-->
+  <item name="TitleKasirListRJ">Biaya Layanan Rawat Jalan</item>
+  <item name="TitleKasirAddRJ">Tambah Biaya Layanan Rawat Jalan</item>
+  <item name="TitleKasirEditRJ">Edit Biaya Layanan Rawat Jalan</item>
+  <item name="TitleKasirDeleteRJ">Hapus Biaya Layanan Rawat Jalan</item>
+  <item name="WarExistKasirRJ">Data Biaya Layanan Rawat Jalan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleKasirListRI">Biaya Layanan Rawat Inap</item>
+  <item name="TitleKasirAddRI">Tambah Biaya Layanan Rawat Inap</item>
+  <item name="TitleKasirEditRI">Edit Biaya Layanan Rawat Inap</item>
+  <item name="TitleKasirDeleteRI">Hapus Biaya Layanan Rawat Inap</item>
+  <item name="WarExistKasirRI">Data Biaya Layanan Rawat Inap Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleKasirListUGD">Biaya Layanan UGD</item>
+  <item name="TitleKasirAddUGD">Tambah Biaya Layanan UGD</item>
+  <item name="TitleKasirEditUGD">Edit Biaya Layanan UGD</item>
+  <item name="TitleKasirDeleteUGD">Hapus Biaya Layanan UGD</item>
+  <item name="WarExistKasirUGD">Data Biaya Layanan UGD Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <item name="TitleKasirListLAB">Biaya Layanan Laboratorium</item>
+  <item name="TitleKasirAddLAB">Tambah Biaya Layanan Laboratorium</item>
+  <item name="TitleKasirEditLAB">Edit Biaya Layanan Laboratorium</item>
+  <item name="TitleKasirDeleteLAB">Hapus Biaya Layanan Laboratorium</item>
+  <item name="WarExistKasirLAB">Data Biaya Layanan Laboratorium Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleKasirListKUBT">Biaya Layanan KUBT</item>
+	<item name="TitleKasirAddKUBT">Tambah Biaya Layanan KUBT</item>
+	<item name="TitleKasirEditKUBT">Edit Biaya Layanan KUBT</item>
+	<item name="TitleKasirDeleteKUBT">Hapus Biaya Layanan KUBT</item>
+	<item name="WarExistKasirKUBT">Data Biaya Layanan KUBT Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleKasirListHemo">Biaya Layanan Hemodialisa</item>
+	<item name="TitleKasirAddHemo">Tambah Biaya Layanan Hemodialisa</item>
+	<item name="TitleKasirEditHemo">Edit Biaya Layanan Hemodialisa</item>
+	<item name="TitleKasirDeleteHemo">Hapus Biaya Layanan Hemodialisa</item>
+	<item name="WarExistKasirHemo">Data Biaya Layanan Hemodialisa Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleKasirListRAD">Biaya Layanan Radiologi</item>
+	<item name="TitleKasirAddRAD">Tambah Biaya Layanan Radiologi</item>
+	<item name="TitleKasirEditRAD">Edit Biaya Layanan Radiologi</item>
+	<item name="TitleKasirDeleteRAD">Hapus Biaya Layanan Radiologi</item>
+	<item name="WarExistKasirRAD">Data Biaya Layanan Radiologi Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<item name="TitleKasirListFIS">Biaya Layanan Fisioterapi</item>
+	<item name="TitleKasirAddFIS">Tambah Biaya Layanan Fisioterapi</item>
+	<item name="TitleKasirEditFIS">Edit Biaya Layanan Fisioterapi</item>
+	<item name="TitleKasirDeleteFIS">Hapus Biaya Layanan Fisioterapi</item>
+	<item name="WarExistKasirFIS">Data Biaya Layanan Fisioterapi Sudah ada dalam database silahkan periksa kembali!</item>
+
+	<!-- RawatJalan-->
+   <item name="TitleRawatJalanListRegistrasi">Registasi Rawat Jalan</item>
+   <item name="TitleRawatJalanAddRegistrasi">Tambah Registasi Rawat Jalan</item>
+   <item name="TitleRawatJalanEditRegistrasi">Edit Registasi Rawat Jalan</item>
+   <item name="TitleRawatJalanDeleteRegistrasi">Hapus Registasi Rawat Jalan</item>
+   <item name="TitleRawatJalanRekamMedis">Rekam Medis Rawat Jalan</item>
+   <item name="RawatJalanAddRegistrasi">Tambah</item>
+   <item name="RawatJalanEditRegistrasi">Edit</item>
+   <item name="RawatJalanDeleteRegistrasi">Hapus</item>
+   <item name="WarExistRawatJalanRegistrasi">Data Registasi Rawat Jalan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- RawatInap-->
+  <item name="TitleRawatInapListRegistrasi">Registasi Rawat Inap</item>
+  <item name="TitleRawatInapAddRegistrasi">Tambah Registasi Rawat Inap</item>
+  <item name="TitleRawatInapEditRegistrasi">Edit Registasi Rawat Inap</item>
+  <item name="TitleRawatInapDeleteRegistrasi">Hapus Registasi Rawat Inap</item>
+  <item name="RawatInapAddRegistrasi">Tambah</item>
+  <item name="RawatInapEditRegistrasi">Edit</item>
+  <item name="RawatInapDeleteRegistrasi">Hapus</item>
+  <item name="WarExistRawatInapRegistrasi">Data Registasi Rawat Jalan Sudah ada dalam database silahkan periksa kembali!</item>
+
+  <!-- Tab-->
+  <item name="TabUmunRJ">Data Umum</item>
+  <item name="TabRegistrasiRJ">Data Kunjungan</item>
+  <item name="TabRekamMedisRJ">Rekam Medis</item>
+  <item name="TabLayananRJ">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiRJ">Kuitansi Pembayaran</item>
+
+  <item name="TabUmunLAB">Data Umum</item>
+  <item name="TabRegistrasiLAB">Data Kunjungan</item>
+  <item name="TabRekamMedisLAB">Rekam Medis</item>
+  <item name="TabLayananLAB">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiLAB">Kuitansi Pembayaran</item>
+
+  <item name="TabUmunRAD">Data Umum</item>
+  <item name="TabRegistrasiRAD">Data Kunjungan</item>
+  <item name="TabRekamMedisRAD">Rekam Medis</item>
+  <item name="TabLayananRAD">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiRAD">Kuitansi Pembayaran</item>
+
+  <item name="TabUmunFIS">Data Umum</item>
+  <item name="TabRegistrasiFIS">Data Kunjungan</item>
+  <item name="TabRekamMedisFIS">Rekam Medis</item>
+  <item name="TabLayananFIS">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiFIS">Kuitansi Pembayaran</item>
+
+  <item name="TabUmunKUBT">Data Umum</item>
+  <item name="TabRegistrasiKUBT">Data Kunjungan</item>
+  <item name="TabRekamMedisKUBT">Rekam Medis</item>
+  <item name="TabLayananKUBT">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiKUBT">Kuitansi Pembayaran</item>
+
+  <item name="TabUmunRI">Data Umum</item>
+  <item name="TabRegistrasiRI">Data Kunjungan</item>
+  <item name="TabRekamMedisRI">Rekam Medis</item>
+  <item name="TabRuangInapRI">Masuk/Keluar Inap</item>
+  <item name="TabLayananRI">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiRI">Kuitansi Pembayaran</item>
+
+  <item name="TabUmunHemo">Data Umum</item>
+  <item name="TabRegistrasiHemo">Data Kunjungan</item>
+  <item name="TabRekamMedisHemo">Rekam Medis</item>
+  <item name="TabLayananHemo">Tagihan Biaya Layanan</item>
+  <item name="TabKuitansiHemo">Kuitansi Pembayaran</item>
+
+</Resource>

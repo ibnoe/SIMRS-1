@@ -1,0 +1,86 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Backoffice.master.cs" Inherits="Backoffice_Backoffice" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link id="StyleMaster" runat="server" href="../../css/StyleSheet.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+            <tr>
+                <td style="height:70px;">
+		            <table style="height:100%; width:100%;"  cellspacing="0" cellpadding="0" border="0">
+			            <tr>
+				            <td class="header" colspan="2">
+					            <table style="width:100%;"  border="0" cellspacing="0" cellpadding="0">
+						            <tr>
+							            <td style="width:50%;"><img alt="" src='<%= Request.ApplicationPath + "/images/header_left.png" %>' width="400" height="60" /></td>
+							            <td style="width:50%; text-align:right;vertical-align:top">
+							                <table width="100%">
+							                    <tr>
+                                                    <td style="text-align:right">
+                                                        <span class="userlog">
+                                                        <asp:label id="lblUserName" runat="server">&nbsp;&nbsp;</asp:label>
+                                                        </span>&nbsp;
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <asp:hyperlink id="btnChangePassword" runat="server" NavigateUrl="ChangePassword.aspx" class="loginlink">GANTI PASSWORD</asp:hyperlink>&nbsp;<span class="loginlink">|</span>&nbsp;
+                                                        <asp:hyperlink id="btnLogout" runat="server" NavigateUrl="Logout.aspx" class="loginlink">LOGOUT</asp:hyperlink>&nbsp;
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tanggal"><%= DateTime.Now.ToString("dddd, dd MMMM yyyy") %>&nbsp;</td>
+                                                </tr>
+                                            </table>
+							           </td>
+						            </tr>
+					            </table>
+				            </td>
+			            </tr>
+			            <tr>
+					        <td style="background-image:url('<%= Request.ApplicationPath + "/images/grad.jpg" %>'); height:6px" colspan="2"></td>
+				        </tr>
+			            <tr>
+				            <td class="menubackgr">
+				                <asp:Menu ID="Menu1" runat="server" 
+				                    Orientation="Horizontal" Width="96px" DynamicHorizontalOffset="2" Font-Names="Tahoma,Verdana" Font-Size="11px" ForeColor="#284E98" StaticSubMenuIndent="10px" OnMenuItemClick="Menu1_MenuItemClick">
+                                    <StaticMenuStyle Font-Size="11px" CssClass="StaticMenuStyle" BorderStyle="None"/>
+                                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" BackColor="Transparent" CssClass="StaticMenuItemStyle" />
+                                    <DynamicHoverStyle BackColor="#666666" ForeColor="#DDDDDD" Font-Size="11px" CssClass="DynamicHoverStyle"/>
+                                    <DynamicMenuStyle BackColor="#999999" Font-Size="11px" CssClass="DynamicMenuStyle"/>
+                                    <StaticSelectedStyle BackColor="LightSteelBlue" ForeColor="#333333" CssClass="StaticSelectedStyle" />
+                                    <DynamicSelectedStyle BackColor="Yellow" CssClass="DynamicSelectedStyle"/>
+                                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" CssClass="DynamicMenuItemStyle" />
+                                    <StaticHoverStyle BackColor="#DDDDDD" ForeColor="#333333" CssClass="StaticHoverStyle"/>
+                                </asp:Menu>
+				            </td>
+				            <td class="menubackgr" style="padding-right: 5px" align="right">
+				            </td>
+			            </tr>
+		            </table>
+	            </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; height:495px; vertical-align: top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 30px">
+                    <table style="width:100%; height:100%; border-top: #666666 1px solid;" cellpadding="2" cellspacing="0" border="0">
+			            <tr>
+				            <td align="center" class="foot" style="background-image: url('<%= Request.ApplicationPath + "/images/bg_footer.jpg" %>')">
+					            <div class="foot">SIMRS Ver:1.0  Hak Cipta © <A href='<%= ConfigurationManager.AppSettings["Main.CompanyURL"].ToString() %>'>'<%= ConfigurationManager.AppSettings["Main.CompanyName"].ToString() %>'</A> &nbsp;2007.</div>
+				            </td>
+			            </tr>
+		            </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

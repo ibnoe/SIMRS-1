@@ -1,0 +1,5 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="KuitansiRJSum.ascx.cs" Inherits="Backoffice_Controls_KuitansiRJSum" %>
+<%@ Register Assembly="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+<%@ Register Assembly="Microsoft.ReportViewer.WebForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
+<CR:CrystalReportViewer ID="CRVPasien" runat="server" AutoDataBind="True" Height="50px" Width="350px" DisplayGroupTree="False" HasCrystalLogo="False" HasDrillUpButton="False" HasGotoPageButton="False" HasPageNavigationButtons="False" HasSearchButton="False" HasToggleGroupTreeButton="False" HasZoomFactorList="False" HasViewList="False" DisplayToolbar="False" EnableDrillDown="False" EnableToolTips="False" HasExportButton="False" HasPrintButton="False" />
+<asp:TextBox ID="txtRawatJalanId" runat="server" Visible="false"></asp:TextBox>
